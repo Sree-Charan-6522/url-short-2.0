@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='flex items-center gap-2 text-sm'>
       <span>Created with</span>
       <Link target='_blank' href="https://nextjs.org/"><svg role="img" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg" dangerouslySetInnerHTML={{ __html: siNextdotjs.svg }} fill={`#${siNextdotjs.hex}`}/></Link>
-      <span>by <Link target='_blank' href="https://github.com/Sree-Charan-6522"><strong>MEDHABOINA SREE CHARAN</strong></Link></span>
+      <span className='hover:underline hover:text-red-500 duration-300'>by <Link target='_blank'  href="https://github.com/Sree-Charan-6522"><strong>MEDHABOINA SREE CHARAN</strong></Link></span>
     </div>
         <p className='max-md:static absolute bottom-1 left-1 text-red-500 hover:text-white cursor-pointer'>Version: v2.0.1</p>
   </div>

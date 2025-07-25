@@ -160,7 +160,9 @@ export default function Home() {
         </div>
 
         {/* Typewriter Effect */}
+        <div className="!mb-[75px]">
         <TypewriterEffect />
+        </div>
       </div>
     </div>
   );
